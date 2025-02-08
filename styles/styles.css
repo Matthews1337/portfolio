@@ -164,7 +164,7 @@ body{
             align-items: center; 
             justify-content: center; 
             text-align: center;
-            background-color: #5f84cd; 
+            background-color: var(--cor-destaque); 
             padding: 0.94rem;
             min-width: 12.5rem; 
             height: 6.25rem; 
@@ -180,13 +180,13 @@ body{
 
         a{
             text-decoration: none;
-            color: white;
+            color: var(--cor-texto);
             
         }
 
         p{
             font-size: 0.9rem;
-            color: #ddd;
+            color: var(--cor-texto);
             margin-top: auto; /* Empurra o `<p>` para o final */
             
         }
@@ -212,7 +212,7 @@ body{
     .Container{
         flex-direction: column-reverse;
         padding: 5%;
-        
+
         .profilePic{
             width: 100%;
         }
