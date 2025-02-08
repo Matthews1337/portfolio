@@ -142,7 +142,6 @@ body{
 
     .container__projects__ul{
 
-        display: flex;
         display: grid;
         grid-auto-flow: column;
         grid-auto-columns: 4%;
@@ -207,17 +206,45 @@ body{
 
     .cabecalho__nav{
         justify-content: center;
+
     }
 
     .Container{
         flex-direction: column-reverse;
         padding: 5%;
         
+        .profilePic{
+            width: 100%;
+        }
+        
     }
 
-.container__apresentacao{
-    width: auto;
-}
-}
+    .Container__about{
+        flex-direction: column-reverse;
+        padding: 5%;
 
+        .profilePic{
+            width: 100%;
+        }
+        
+    }
 
+    .container__apresentacao{
+        width: auto;
+    }
+
+    .container__projects{
+
+        .container__projects__ul{
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap; 
+            padding: 1rem;
+            list-style: none;
+            gap: 2rem; 
+   
+        }
+        
+    }
+}
